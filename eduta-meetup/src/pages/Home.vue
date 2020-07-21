@@ -1,19 +1,25 @@
 <template>
   <div class="container">
     <banner-home></banner-home>
-    <linha-design></linha-design> 
+    <row-design></row-design>
+    <info-home></info-home> 
+    <about-home></about-home>
   </div>
 </template>
 
 <script>
 import bannerHome from '@/components/componentsTela/BannerHome.vue';
-import linhaDesign from '@/components/componentsDesign/Linha.vue';
+import rowDesign from '@/components/componentsDesign/Row.vue';
+import informativeHome from '@/components/componentsTela/InformativeHome.vue';
+import aboutHome from '@/components/componentsTela/AboutHome.vue';
 
 export default {
   name: 'Home',
   components: {
     'banner-home': bannerHome,
-    'linha-design': linhaDesign
+    'row-design': rowDesign,
+    'info-home': informativeHome,
+    'about-home': aboutHome
   },
   data () {
     return {

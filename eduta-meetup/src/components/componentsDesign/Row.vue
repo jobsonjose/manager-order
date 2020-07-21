@@ -1,5 +1,6 @@
 <template>
     <div class="container-linha">
+      <div class="title-linha">{{ title }}</div>
       <div class="linha-design"></div>
       <div class="linha-design"></div>
       <div class="linha-design"></div>
@@ -9,7 +10,13 @@
 <script>
 
 export default {
-  name: 'Linha',
+  name: 'Row',
+  props:{
+    title: {
+      type: String,
+      default: "Projetos"
+    }
+  },
   data () {
     return {
       msg: 'Page do meetup Eduta'
@@ -22,14 +29,21 @@ export default {
 <style scoped>
 .container-linha{
   width: 100%;
-  margin-top: 2%;
+  margin-top: 1%;
   float: left;
 }
 .linha-design{
     width: 100%;
     height: 10px;
-    float: left;
     background: #d82e52;
-    margin-top: 1%;
+    margin-top: 0.5%;
+}
+.title-linha{
+  float: left;
+  padding: 0.6%;
+  width: 18%;
+  margin: 0.8% 41%;
+  background: White;
+  border-radius: 30px;
 }
 </style>
