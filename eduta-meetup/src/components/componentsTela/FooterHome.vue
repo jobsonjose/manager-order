@@ -6,17 +6,17 @@
         <div class="col-main">
             <ul>
                 <li class="title-list">Projetistas</li>
-                <li>Apoiador</li>
-                <li>Projetos</li>
-                <li>Como criar projetos ?</li>
+                <li class="txt-list" >Apoiador</li>
+                <li class="txt-list" >Projetos</li>
+                <li class="txt-list" >Como criar projetos ?</li>
             </ul>
         </div>
         <div class="col-secundary">
             <ul>
                 <li class="title-list">Informações</li>
-                <li>Deseja Trabalhar conosco ?</li>
-                <li>Sobre</li>
-                <li>Patrocinios</li>
+                <li class="txt-list" >Deseja Trabalhar conosco ?</li>
+                <li class="txt-list" >Sobre</li>
+                <li class="txt-list" >Patrocinios</li>
             </ul>
         </div>
     </div>
@@ -42,9 +42,12 @@ export default {
     padding: 2%;
     color: white;
 }
-li{
+.txt-list{
     list-style-type: none;
     padding: 5%
+}
+.txt-list:hover{
+    color: rgba(247, 223, 106, 0.77);
 }
 .col-main, .col-secundary{
     width: 25%;
@@ -58,5 +61,6 @@ li{
     font-size:large;
     border-bottom: 1.8px solid white;
     padding: 3% !important;
+    list-style-type: none;
 }
 </style>

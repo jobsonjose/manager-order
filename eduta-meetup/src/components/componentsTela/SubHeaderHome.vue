@@ -31,7 +31,12 @@ export default {
 }
 .title-sub-nave{
     float: right;
-    margin: 2% 4%;
+    padding: 2% 4%;
     font-size: 12px;
+    transition: 0.5s;
+}
+.title-sub-nave:hover{
+  background: #f9f9c7;
+  transform: scale(1.0);
 }
 </style>

@@ -28,12 +28,17 @@ export default {
 }
 .title-nave{
     float: left;
-    margin: 0.5% 9%;
+    padding: 0.5% 9%;
     color: white;
+    transition: 1s;
 }
 .container-nave{
     width: 100%;
     float: left;
     background: #d82e52;
+}
+.title-nave:hover{
+  color: rgba(247, 223, 106, 0.77);
+
 }
 </style>

@@ -34,6 +34,11 @@ export default {
     box-shadow: 1px 10px 15px rgba(50, 50, 50, 0.77);
     padding: 2%;
     float: left;
+    transition: 1.2s
+}
+.container-card:hover{
+    transform: scale(1,1);
+    box-shadow: 1px 10px 15px rgba(247, 223, 106, 0.77);
 }
 .header-card{
     text-align: left;
