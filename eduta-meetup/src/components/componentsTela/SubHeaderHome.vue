@@ -1,7 +1,7 @@
 <template>
     <div class="container-sub-nav">
         <div class="row">
-          <div class="title-sub-nave">Acessar</div>
+          <div v-on:click="acessoTela()" class="title-sub-nave">Acessar</div>
           <div v-on:click="apoiadorTela()" class="title-sub-nave">Tornar Apoiador</div>
       </div>
     </div>
@@ -18,6 +18,9 @@ export default {
   methods:{
     apoiadorTela(){
       this.$router.push("/apoiador");
+    },
+    acessoTela(){
+      this.$router.push("/acesso");
     }
   }
 }

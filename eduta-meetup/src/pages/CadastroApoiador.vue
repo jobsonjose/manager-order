@@ -4,7 +4,7 @@
     </div>
 </template>
 <script>
-import formCadastro from '@/components/componentsTela/FormApoiador.vue';
+import formCadastro from '@/components/componentsTela/componenteApoiador/FormApoiador.vue';
 
 export default {
     name: 'cadastro apoiador',
