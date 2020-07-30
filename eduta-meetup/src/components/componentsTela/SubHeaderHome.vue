@@ -2,7 +2,7 @@
     <div class="container-sub-nav">
         <div class="row">
           <div class="title-sub-nave">Acessar</div>
-          <div class="title-sub-nave">Tornar Apoiador</div>
+          <div v-on:click="apoiadorTela()" class="title-sub-nave">Tornar Apoiador</div>
       </div>
     </div>
 </template>
@@ -13,6 +13,11 @@ export default {
   data () {
     return {
       msg: 'Page do meetup Eduta'
+    }
+  },
+  methods:{
+    apoiadorTela(){
+      this.$router.push("/apoiador");
     }
   }
 }
@@ -34,6 +39,7 @@ export default {
     padding: 2% 4%;
     font-size: 12px;
     transition: 0.5s;
+    cursor: copy;
 }
 .title-sub-nave:hover{
   background: #f9f9c7;
