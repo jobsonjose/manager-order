@@ -23,7 +23,6 @@ export default {
 </script>
 <style scoped>
 .container-acesso{
-    background: #d82e52;
     float: left;
     width: 100%;
     margin-top: 0.5%;
