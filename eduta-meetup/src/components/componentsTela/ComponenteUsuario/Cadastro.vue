@@ -114,7 +114,7 @@ export default {
 }
 .btn-form-usuario:hover, .btn-evento-cadastro:hover{
     background: white;
-    color: rgba(230, 189, 0, 0.77);
+    color: black;
     border: 1px solid rgba(230, 189, 0, 0.77);
 }
 

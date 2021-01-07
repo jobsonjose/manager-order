@@ -96,9 +96,10 @@ export default {
 .btn-form-apoiador{
     width: 25%;
     background: white;
-    color:rgba(230, 189, 0, 0.77);
+    color: black;
     translate: 1s;
     padding: 2%;
+    transition: 0.6s;
 }
 
 .btn-form-apoiador:hover{
